@@ -9,7 +9,7 @@
   var ALLOW_COUNT = ITEMS.filter(function (i) { return i.allow; }).length;
   var DENY_COUNT = TOTAL - ALLOW_COUNT;
 
-  var POPULAR_TERMS = ["스타벅스", "이마트", "주유소", "헬스장", "노래방", "PC방", "안마", "보험", "택시", "약국"];
+  var POPULAR_TERMS = ["스타벅스", "이마트", "주유소", "헬스장", "노래방", "PC방", "영화관", "보험", "택시", "약국"];
 
   // ---------- Utilities ----------
   function norm(s) {
